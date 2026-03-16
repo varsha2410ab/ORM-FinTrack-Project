@@ -1,36 +1,37 @@
-# FinTrack Pro - CLI Finance Manager
-A command-line finance manager to track expenses, categories, subscriptions, and budgets.
+# FinTrack Pro – CLI Finance Manager
 
--->Project Description
-FinTrack Pro is a Python-based command-line interface (CLI) application designed to help users manage their personal finances efficiently.  
-Users can:
-- Add and manage expense categories
-- Record, update, and delete expenses
-- Track subscriptions
-- Set monthly budgets and receive alerts
-- Generate category-wise expense reports
+**FinTrack Pro** is a Python-based **Command Line Interface (CLI)** application to help users manage their personal finances efficiently. It allows you to track expenses, categorize spending, manage subscriptions, and monitor monthly budgets.  
 
--->Features
-- Add, update, and delete expenses
-- Categorize expenses
-- Search expenses by date
-- Generate category-wise expense reports
-- Set monthly budgets and check budget status
-- Track subscriptions with next due date
+The app uses **SQLite** as the database and **SQLAlchemy ORM** for database interaction. Data is stored locally, so your expenses and categories persist between runs.
 
--->Tech Stack
-- Python 3.x
-- SQLite (database)
-- SQLAlchemy ORM
+---
 
--->Usage
-On running python fintrack.py, you will see a menu:
-1.Add Category
-2.Add Expense
-3.Update Expense
-4.Delete Expense
-5.Search Expense by Date
-6.Category Report
-7.Set Monthly Budget
-8.Budget Alert
-9.Exit
+## Features
+
+- Add, update, and delete expenses  
+- Categorize expenses into different categories  
+- Search expenses by specific date  
+- Generate **category-wise expense reports**  
+- Set **monthly budgets**  
+- Receive **budget alerts** when spending exceeds limits  
+- Track subscriptions with their next due date  
+
+---
+
+## Tech Stack
+
+- Python 3  
+- SQLite (database)  
+- SQLAlchemy ORM  
+- Command Line Interface (CLI)  
+
+---
+
+## How to Run
+
+1. Clone the repository or download the project.  
+2. Open **Command Prompt / PowerShell** in the project folder.  
+3. Install SQLAlchemy if not already installed:
+
+```bash
+pip install sqlalchemy
